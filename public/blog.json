@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Exploring the Mountains",
+        "courseThumbnail": "https://i.ibb.co/JHmXt7d/top-view-desk-concept-with-coffee.jpg",
+        "authorName": "John Doe",
+        "authorImageAvatar": "https://i.ibb.co/vJXKDr7/boy1.png",
+        "postDate": "2024-10-21",
+        "readingTime": 5,
+        "tags": ["Nature", "Travel", "Adventure"]
+    },
+    {
+        "id": 2,
+        "title": "The Art of Coding",
+        "courseThumbnail": "https://i.ibb.co/1sQdY2G/top-view-online-shopping-concept.jpg",
+        "authorName": "Jane Smith",
+        "authorImageAvatar": "https://i.ibb.co/JHdHjzx/boy2.jpg",
+        "postDate": "2024-10-19",
+        "readingTime": 7,
+        "tags": ["Programming", "Technology", "Coding"]
+    },
+    {
+        "id": 3,
+        "title": "Journey through Space",
+        "courseThumbnail": "https://i.ibb.co/fG8LnYv/toy-bricks-table-with-word-my-blog.jpg",
+        "authorName": "Alice Johnson",
+        "authorImageAvatar": "https://i.ibb.co/dGtz9fk/girl1.jpg",
+        "postDate": "2024-10-18",
+        "readingTime": 6,
+        "tags": ["Space", "Science", "Exploration"]
+    },
+    {
+        "id": 4,
+        "title": "The Secrets of the Ocean",
+        "courseThumbnail": "https://i.ibb.co/JHmXt7d/top-view-desk-concept-with-coffee.jpg",
+        "authorName": "Michael Brown",
+        "authorImageAvatar": "https://i.ibb.co/MCFVgkF/girl2.jpg",
+        "postDate": "2024-10-20",
+        "readingTime": 8,
+        "tags": ["Ocean", "Marine Biology", "Nature"]
+    },
+    {
+        "id": 5,
+        "title": "Ancient Civilizations",
+        "courseThumbnail": "https://i.ibb.co/1sQdY2G/top-view-online-shopping-concept.jpg",
+        "authorName": "Emily Davis",
+        "authorImageAvatar": "https://i.ibb.co/27h9vZG/profile.png",
+        "postDate": "2024-10-17",
+        "readingTime": 9,
+        "tags": ["History", "Civilizations", "Archaeology"]
+    }
+]
