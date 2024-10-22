@@ -1,11 +1,31 @@
 
 
-const Bookmarks = () => {
-    return (
-        <div className=" container w-11/12 mx-auto md:w-1/3">
-            <h1>Bookmaks</h1>
-        </div>
-    );
-};
+import PropTypes from 'prop-types'
+import Bookmark from '../Bookmark/Bookmark'
 
-export default Bookmarks;
+const Bookmarks = ({bookmarks,markAsRead})=> {
+  return (
+    <div className='ml-4 bg-gray-100'>
+        <div className=" container  mx-auto rounded ">
+
+            <h2 className='text-left text-3xl'> Reading Time:{markAsRead}</h2>
+          <h1 className="text-3xl text-center">Bookmarked Blogs:{bookmarks.length}</h1>
+          {
+           bookmarks.map((bookmark,idx)=> <Bookmark 
+            key={idx}
+            bookmark={bookmark}
+            ></Bookmark>)
+          }
+        </div>
+    </div>
+  )
+}
+
+Bookmarks.propTypes = {
+bookmarks: PropTypes.array,
+markAsRead:PropTypes.number
+}
+
+export default Bookmarks
+
+
